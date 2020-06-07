@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/kalashnykbohdan/goit-react-hw-01-components/static/css/main.ef8fef7f.chunk.css",
-    "main.js": "/kalashnykbohdan/goit-react-hw-01-components/static/js/main.c7f2a322.chunk.js",
-    "main.js.map": "/kalashnykbohdan/goit-react-hw-01-components/static/js/main.c7f2a322.chunk.js.map",
+    "main.js": "/kalashnykbohdan/goit-react-hw-01-components/static/js/main.f49076cc.chunk.js",
+    "main.js.map": "/kalashnykbohdan/goit-react-hw-01-components/static/js/main.f49076cc.chunk.js.map",
     "runtime-main.js": "/kalashnykbohdan/goit-react-hw-01-components/static/js/runtime-main.a71fe7fc.js",
     "runtime-main.js.map": "/kalashnykbohdan/goit-react-hw-01-components/static/js/runtime-main.a71fe7fc.js.map",
     "static/js/2.835e3c52.chunk.js": "/kalashnykbohdan/goit-react-hw-01-components/static/js/2.835e3c52.chunk.js",
     "static/js/2.835e3c52.chunk.js.map": "/kalashnykbohdan/goit-react-hw-01-components/static/js/2.835e3c52.chunk.js.map",
     "index.html": "/kalashnykbohdan/goit-react-hw-01-components/index.html",
-    "precache-manifest.8b2e7d98ab52ab3b9dce5d6a5fb39453.js": "/kalashnykbohdan/goit-react-hw-01-components/precache-manifest.8b2e7d98ab52ab3b9dce5d6a5fb39453.js",
+    "precache-manifest.27a4c9f286dd0abbef3c33a04fed9c9f.js": "/kalashnykbohdan/goit-react-hw-01-components/precache-manifest.27a4c9f286dd0abbef3c33a04fed9c9f.js",
     "service-worker.js": "/kalashnykbohdan/goit-react-hw-01-components/service-worker.js",
     "static/css/main.ef8fef7f.chunk.css.map": "/kalashnykbohdan/goit-react-hw-01-components/static/css/main.ef8fef7f.chunk.css.map",
     "static/js/2.835e3c52.chunk.js.LICENSE.txt": "/kalashnykbohdan/goit-react-hw-01-components/static/js/2.835e3c52.chunk.js.LICENSE.txt"
@@ -17,6 +17,6 @@
     "static/js/runtime-main.a71fe7fc.js",
     "static/js/2.835e3c52.chunk.js",
     "static/css/main.ef8fef7f.chunk.css",
-    "static/js/main.c7f2a322.chunk.js"
+    "static/js/main.f49076cc.chunk.js"
   ]
 }
