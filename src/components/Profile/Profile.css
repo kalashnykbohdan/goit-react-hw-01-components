@@ -1,0 +1,76 @@
+.wrapper{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.profile{
+    background-color: white;
+    width: 380px;
+    height: 460px;
+    
+}
+
+.main_info{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 20px;
+}
+
+.avatar {
+    border-radius: 50%;
+    margin-top: 30px;
+    width: 150px;
+  }
+  .name {
+    font-weight: bold;
+    font-size: 24px;
+    font-family: 'Times New Roman', Times, serif;
+    /* line-height: 32px; */
+  }
+  
+  .tag {
+    font-size: 18px;
+    color: #97a2ae;
+    line-height: 12px;
+    font-family: 'Times New Roman', Times, serif;
+  }
+  .location {
+    font-size: 18px;
+    color: #97a2ae;
+    height: 100%;
+    line-height: 12px;
+    margin-bottom: 50px;
+  }
+
+  .stats {
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    background-color: #f3f6f9;
+    
+  }
+
+  .stats_value {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: solid 1px #d8e0ea;
+    color: #97a2ae;
+    font-size: 16px;
+    font-family: 'Times New Roman', Times, serif;
+    line-height: 18px;
+    padding-top: 20px;
+
+    width: 130px;
+    height: 85px;
+  }
+  .quantity{
+    font-weight: bold;
+    color: black;
+    font-size: 20px;
+    padding-top: 5px;
+  }
