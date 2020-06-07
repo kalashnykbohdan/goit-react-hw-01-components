@@ -1,7 +1,7 @@
 import React, { Fragment } from 'react';
 import SocialProfile from './Profile';
 // import './App.css';
-import user from './user.json';
+import user from '../user.json';
 
 function App() {
   return (
