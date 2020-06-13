@@ -9,6 +9,7 @@ html{
 
 body{
   margin: 0;
+  margin-left: 50px;
   background-color: rgb(231, 236, 242);
   color: black;
 }

@@ -1,13 +1,14 @@
 .wrapper{
     display: flex;
-    justify-content: center;
-    margin-top: 50px;
+    /* justify-content: center; */
+    margin-top: 10px;
+    height: auto;
 }
 
 .profile{
     background-color: white;
     width: 380px;
-    height: 460px;
+    height: auto;
     
 }
 
@@ -27,7 +28,6 @@
     font-weight: bold;
     font-size: 24px;
     font-family: 'Times New Roman', Times, serif;
-    /* line-height: 32px; */
   }
   
   .tag {

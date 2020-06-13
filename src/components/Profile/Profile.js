@@ -1,37 +1,37 @@
 import React, { Fragment } from "react";
 import PropTypes from "prop-types";
-import './Profile.css';
+import style from'./Profile.module.css';
 
 export default function Profile ({ name, tag, location, avatar, stats }) {
    
     return(
         <Fragment>
-        <div className="wrapper">
+        <div className={style.wrapper}>
             
-            <div className="profile">
-                <div className="main_info">
+            <div className={style.profile}>
+                <div className={style.main_info}>
                     <img
                     src={avatar}
                     alt="user avatar"
-                    className="avatar"
+                    className={style.avatar}
                     />
-                    <p className="name">{name}</p>
-                    <p className="tag">@{tag}</p>
-                    <p className="location">{location}</p>
+                    <p className={style.name}>{name}</p>
+                    <p className={style.tag}>@{tag}</p>
+                    <p className={style.location}>{location}</p>
                 </div>
 
-                <ul className="stats">
-                    <li className="stats_value">
-                    <span className="label">Followers</span>
-                    <span className="quantity">{stats.followers}</span>
+                <ul className={style.stats}>
+                    <li className={style.stats_value}>
+                    <span className={style.label}>Followers</span>
+                    <span className={style.quantity}>{stats.followers}</span>
                     </li>
-                    <li className="stats_value">
-                    <span className="label">Views</span>
-                    <span className="quantity">{stats.views}</span>
+                    <li className={style.stats_value}>
+                    <span className={style.label}>Views</span>
+                    <span className={style.quantity}>{stats.views}</span>
                     </li>
-                    <li className="stats_value">
-                    <span className="label">Likes</span>
-                    <span className="quantity">{stats.likes}</span>
+                    <li className={style.stats_value}>
+                    <span className={style.label}>Likes</span>
+                    <span className={style.quantity}>{stats.li}</span>
                     </li>
                 </ul>
             </div>
@@ -51,7 +51,6 @@ Profile.propTypes = {
         views: PropTypes.number.isRequired,
         likes: PropTypes.number.isRequired,
     }),
-
 
 }
 
