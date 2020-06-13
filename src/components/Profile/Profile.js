@@ -31,7 +31,7 @@ export default function Profile ({ name, tag, location, avatar, stats }) {
                     </li>
                     <li className={style.stats_value}>
                     <span className={style.label}>Likes</span>
-                    <span className={style.quantity}>{stats.li}</span>
+                    <span className={style.quantity}>{stats.likes}</span>
                     </li>
                 </ul>
             </div>
